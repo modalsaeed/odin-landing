@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    flex: 1;
+    align-items: stretch;
+}
+
+.top{
+    display: flex;
+    flex: 1;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+.header-link{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content h2{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.content .text{
+    color: #E5E7EB;
+    margin-top: 5px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.content-image{
+    color: #E5E7EB;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.deck{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.box{
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
